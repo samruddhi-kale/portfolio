@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Automatic Toll System</title>
+        <style>
+            *{
+                background-color: black;
+                margin: 20px;
+            }
+            h2{
+                text-align: center;
+                color: whitesmoke;
+            }
+            p{
+                color:rgb(91, 193, 193);
+            }
+            #main{
+                color: palevioletred;
+            }
+            #Output{
+                color: rgb(132, 222, 114);
+            }
+            img{
+               width: 90px;
+               height: 130px; 
+               border: 1px solid #ddd;
+               border-radius: 4px;
+               padding: 5px;
+            }
+            img:hover{
+                box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+            }
+            button{
+                border-radius: 25px;
+                font-size: 20px;
+                width: 50px;
+                height: 50px;
+                background-color: palevioletred;
+                transition: width 2s;
+            }
+            button:hover{
+                width: 150px;
+            }
+        </style>
+    </head>
+    <body>
+        <h2><b>Automatic Toll Tax System 🚘</b></h2>
+
+        <p>Do you remember when you first visited toll plaza? And the wonderful stopping mechanism they used to stop the vehicles passing by to collect funds? Yes we are making the exact same project here but in a mini scale.</p>
+
+        <p>In this project, we are making an exact replica found in toll plaza centers that is called as stopping system, The idea for this project was inspired from actual system, in actual toll they stop the vehicles using a stopper that is completely automated and it is activated when any vehicle passes in front the sensor, or some time it's activated through a button.</p> 
+            
+        <p>In our case, we are using an HC-SR04 or called as ultrasonic distance sensor to detect an obstacle(vehicle) and later to lift the barrier we are using micro servo, that is the mechanism involved in this project, Now let us dive into the building stage</p>
+
+        <div>
+            <p id="main">Click The Button For Project Report 🤓
+            <a href="IOT_project Report.pdf" title="Report">
+                <button>Report</button>
+            </a></p>
+        </div>
+
+        <div>
+            <p id="Output">Here is the output 😇</p>
+            <a href="Toll.jpeg" target="_blank">
+            <img src="Toll.jpeg" alt="Output">
+            </a>
+        </div>
+    </body>
+</html>

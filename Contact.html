@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="https://kit.fontawesome.com/69a4fa9db2.js" crossorigin="anonymous"></script>
+        <style>
+            @import url("https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap");
+
+            * {
+                box-sizing: 0;
+                padding: 0;
+                margin: 0;
+            }
+
+            .container {
+                width: 100%;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                align-items: center;
+            }
+
+            .container .contact_data {
+                background: hsl(193, 78%, 89%);
+                width: 300px;
+                border-radius: 10px;
+                margin: 0 10px;
+            }
+
+            .container .contact_data form {
+                padding: 0 1rem;
+            }
+
+            .container .contact_data2 {
+                background: hsl(193, 78%, 89%);
+                border-radius: 10px;
+                width: 350px;
+                margin: 0 10px;
+            }
+
+            .container .contact_data2 ul {
+                list-style: none;
+            }
+
+            .container .contact_data2 ul li {
+                margin: 1.5rem 1rem;
+            }
+
+            .container .contact_data2 ul li b {
+                margin-left: 10px;
+                font-size: 1.2rem;
+            }
+
+            .container .contact_data2 ul li p {
+                font-size: 14px;
+                margin-left: 35px;
+            }
+
+            .container .contact_data2 .map iframe {
+                width: 330px;
+                height: 155px;
+                margin: 0 1rem;
+            }
+
+            @media (max-width: 1037px) {
+                .container .contact_data,
+                .contact_data2 {
+                width: 80%;
+                margin: 10px 0px;
+            }
+            .container .contact_data h2 {
+                width: 50%;
+            }
+            }
+
+            @media (max-width: 768px) {
+                .container .contact_data2 {
+                width: 75%;
+                margin: 10px 0px;
+            }
+            .container .contact_data h2 {
+            width: 50%;
+            }
+            }
+
+            .icon{
+                text-align: center;
+            }
+            .icon a{
+                text-decoration: none;
+                margin-right: 20px;
+            }
+            .fa-solid.fa-envelope{
+                color: rgb(4, 193, 251);
+            }
+            .fa-solid.fa-envelope:hover{
+                color: hsl(201, 57%, 64%);
+            }
+            .fa-brands.fa-square-instagram{
+                color: rgb(198, 60, 101);
+                font-size: xx-large;
+            }
+            .fa-brands.fa-square-instagram:hover{
+                color: rgb(218, 131, 146);
+            }
+            .fa-brands.fa-linkedin{
+                color: rgb(64, 64, 203);
+                font-size: xx-large;
+            }
+            .fa-brands.fa-linkedin:hover{
+                color: rgb(119, 119, 213);
+            }
+            .fa-brands.fa-square-github{
+                color: black;
+                font-size:xx-large;
+            }
+            .fa-brands.fa-square-github:hover{
+                color: rgb(97, 95, 95);
+            }
+            .fa-solid.fa-location-dot{
+                color: red;
+            }
+            .fa-solid.fa-location-dot:hover{
+                color: rgb(199, 79, 79);
+            }
+
+            h1{
+                text-align: center;
+            }
+
+            body {
+                font-family: Arial, sans-serif;
+                background-image: url(cont.jpg);
+                background-size: cover;
+                display: grid;
+                margin: 25px;
+                align-items: center;
+            }
+        
+            .box {
+                background-color: hsl(193, 78%, 89%);
+                padding: 20px;
+                border-radius: 10px;
+                width: 300px;
+                display: flex;
+                flex-wrap: wrap;
+            }
+
+            .box input {
+                width: 60%;
+                padding: 10px;
+                margin: 7px 0;
+                box-sizing: border-box;
+            }
+
+            .box button {
+                width: 100%;
+                padding: 10px;
+                background-color: hwb(204 20% 14%);
+                color: #fff;
+                border: none;
+                border-radius: 3px;
+                cursor: pointer;
+            }
+
+            .box button:hover {
+                background-color: #2980b9;
+            }
+
+            
+        </style>
+    </head>
+    <body>
+        <h1><b>Contact Me📞</b></h1><br>
+        <div class="icon">
+            <a href="https://www.instagram.com/sam_kale07/">
+                <i class="fa-brands fa-square-instagram"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/samruddhi-kale-210409246/">
+                <i class="fa-brands fa-linkedin"></i>
+            </a>
+            <a href="https://github.com/samruddhi-kale">
+                <i class="fa-brands fa-square-github"></i>
+            </a>
+        </div><br><br><br>
+        <div class="container">
+            <div class="contact_data2">
+              <ul>
+                <li>
+                  <i class="fa-solid fa-location-dot"></i>
+                  <b>Location:</b>
+                  <p>ISB&M College of Engineering,Pune</p>
+                </li>
+                <li>
+                  <i class="fa-solid fa-envelope"></i>
+                  <b>Email:</b>
+                  <p>samruddhikale2003@gmail.com</p>
+                </li>
+              </ul>
+              <div class="map">
+                <iframe
+                  src="https://www.google.com/maps/embed/v1/place?q=ISBM+College+of+Engineering,+Pune,+Nande,+Maharashtra,+India&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"
+                  width="300"
+                  height="200"
+                  style="border: 0"
+                  allowfullscreen=""
+                  loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"
+                ></iframe>
+              </div>
+            </div>
+        <div class="box">
+            <form id="form" action="">
+                <label for="Name">Full Name</label>
+                <input type="text" id="Name" placeholder="Enter Full_Name" required><br>        
+                  
+                <label for="Email Address">Email Address</label>
+                <input type="email" id="Email_Address" placeholder="abc@gmail.com" required><br>
+                  
+                <label for="Phone No.">Phone No.</label>
+                <input type="tel" id="Phone No." placeholder="123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+                <br>
+                              
+                <label for="Message">Message</label>
+                <textarea rows="3" cols="33" id="Message" placeholder="Enter Message" required></textarea>
+                <br>
+                  
+                <button type="submit">Contact</button>
+            </form>
+        </div> 
+
+    </body>
+</html>
